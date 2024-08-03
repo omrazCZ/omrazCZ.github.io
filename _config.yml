@@ -22,9 +22,9 @@ repository               : "https://omrazcz.github.io/"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Oto Mraz"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD Student @ TU Delft"
   location         : "Earth"
   employer         : "TU Delft"
   uri              : # URL
