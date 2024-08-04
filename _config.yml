@@ -21,7 +21,7 @@ repository               : "omrazCZ/omrazCZ.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "image.png"
+  avatar           : "image.jpg"
   name             : "Oto Mraz"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student @ TU Delft"
