@@ -25,7 +25,7 @@ author:
   name             : "Oto Mraz"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student @ TU Delft"
-  location         : "Earth"
+  location         : "Netherlands"
   employer         : "TU Delft"
   uri              : # URL
   email            : "oto.mraz@seznam.cz" 
@@ -34,9 +34,9 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=7klzte0AAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-7728-5660"
+  orcid            : "https://orcid.org/0000-0002-7728-5660"
   semantic         : # URL
-  pubmed           : # URLs
+  pubmed           : # URL
   researchgate     : # URL
 
   # Repositories and software development
