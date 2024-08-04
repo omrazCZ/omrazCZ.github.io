@@ -19,7 +19,7 @@
 
 
 
-<title>Oto Mraz</title>
+<title>Oto Mraz - Oto Mraz</title>
 
 
 
@@ -60,7 +60,7 @@
     {
       "@context" : "http://schema.org",
       "@type" : "Person",
-      "name" : "Your Name",
+      "name" : "Oto Mraz",
       "url" : "http://localhost:4000",
       "sameAs" : null
     }
@@ -74,7 +74,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Your Name / Site Title Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Oto Mraz Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -137,13 +137,10 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Your Name / Site Title</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Oto Mraz</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
@@ -152,13 +149,7 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/portfolio/">Portfolio</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/year-archive/">Blog Posts</a></li>
-          
-            
             <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/markdown/">Guide</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -214,15 +205,13 @@
       <!-- Font Awesome and Academicons icons / Academic websites -->
             
       
-        <li><a href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+        <li><a href="https://scholar.google.com/citations?user=7klzte0AAAAJ&hl=en"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
       
       
       
       
-        <li><a href="http://orcid.org/yourorcidurl"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+        <li><a href="https://orcid.org/0000-0002-7728-5660"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
       
-      
-        <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
                               
       
 
@@ -231,15 +220,13 @@
             
             
       
-        <li><a href="https://github.com/omrazCZ"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+        <li><a href="https://github.com/https://github.com/omrazCZ"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
       
             
             
 
       <!-- Font Awesome icons / Social media -->
       
-
-      
       
             
       
@@ -248,6 +235,8 @@
       
             
             
+      
+        <li><a href="https://www.linkedin.com/in/https://www.linkedin.com/in/oto-mraz-643270192/"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
             
       
             
@@ -297,35 +286,6 @@
 
 <p>Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart’s content without touching the content of your site. If you get to a point where you’ve broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over – just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as <a href="https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb">this one</a> that analyzes metadata in pages about talks to display <a href="https://academicpages.github.io/talkmap.html">a map of every location you’ve given a talk</a>.</p>
 
-<h1 id="getting-started">Getting started</h1>
-<ol>
-  <li>Register a GitHub account if you don’t have one and confirm your e-mail (required!)</li>
-  <li>Fork <a href="https://github.com/academicpages/academicpages.github.io">this repository</a> by clicking the “fork” button in the top right.</li>
-  <li>Go to the repository’s settings (rightmost item in the tabs that start with “Code”, should be below “Unwatch”). Rename the repository “[your GitHub username].github.io”, which will also be your website’s URL.</li>
-  <li>Set site-wide configuration and create content &amp; metadata (see below – also see <a href="http://archive.is/3TPas">this set of diffs</a> showing what files were changed to set up <a href="https://getorg-testacct.github.io">an example site</a> for a user with the username “getorg-testacct”)</li>
-  <li>Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.</li>
-  <li>Check status by going to the repository settings, in the “GitHub pages” section</li>
-</ol>
-
-<h2 id="site-wide-configuration">Site-wide configuration</h2>
-<p>The main configuration file for the site is in the base directory in <a href="https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml">_config.yml</a>, which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site’s github repository. The configuration file for the top menu is in <a href="https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml">_data/navigation.yml</a>. For example, if you don’t have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header.</p>
-
-<h2 id="create-content--metadata">Create content &amp; metadata</h2>
-<p>For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the <a href="https://github.com/academicpages/academicpages.github.io/tree/master/_talks">_talks directory</a>. At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the <a href="https://academicpages.github.io/talks">Talks page</a>, each <a href="https://academicpages.github.io/talks/2012-03-01-talk-1">individual page</a> for specific talks, the talks section for the <a href="https://academicpages.github.io/cv">CV page</a>, and the <a href="https://academicpages.github.io/talkmap.html">map of places you’ve given a talk</a> (if you run this <a href="https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py">python file</a> or <a href="https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb">Jupyter notebook</a>, which creates the HTML for the map based on the contents of the _talks directory).</p>
-
-<p><strong>Markdown generator</strong></p>
-
-<p>I have also created <a href="https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator">a set of Jupyter notebooks</a> that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.</p>
-
-<h2 id="how-to-edit-your-sites-github-repository">How to edit your site’s GitHub repository</h2>
-<p>Many people use a git client to create files on their local computer and then push them to GitHub’s servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like <a href="https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md">this one</a> and click the pencil icon in the top right of the content preview (to the right of the “Raw | Blame | History” buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the “Create new file” or “Upload files” buttons.</p>
-
-<p>Example: editing a markdown file for a talk
-<img src="/images/editing-talk.png" alt="Editing a markdown file for a talk" /></p>
-
-<h2 id="for-more-info">For more info</h2>
-<p>More info about configuring Academic Pages can be found in <a href="https://academicpages.github.io/markdown/">the guide</a>. The <a href="https://mmistakes.github.io/minimal-mistakes/docs/configuration/">guides for the Minimal Mistakes theme</a> (which this theme was forked from) might also be helpful.</p>
-
 
         
 
@@ -371,7 +331,7 @@
       <li><strong>Follow:</strong></li>
     
     
-      <li><a href="http://github.com/academicpages"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="http://github.com/https://github.com/omrazCZ"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
     
     
     
@@ -381,7 +341,7 @@
 </div>
 
 
-<div class="page__footer-copyright">&copy; 2024 Your Name. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 Oto Mraz. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
