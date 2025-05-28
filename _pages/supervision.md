@@ -5,7 +5,7 @@ permalink: /supervision/
 author_profile: true
 ---
 
-<div class="wordwrap">Throughout my research career, I have supervised MSc and BSc students in the following projects:</a></div>
+<div class="wordwrap">Throughout my research career, I have supervised MSc and BSc students in the following projects:</div>
 
 {% include base_path %}
 
