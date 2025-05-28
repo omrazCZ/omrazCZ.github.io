@@ -2,7 +2,7 @@
 title: "Cloud Computing Architecture"
 collection: teaching
 type: "Graduate course"
-permalink: /teaching/2022-spring-teaching-1
+permalink: /teaching/2022-spring-teaching-2
 venue: "ETH Zurich, Department of Computer Science"
 date: 2022-02-16
 location: "Zurich, Switzerland"

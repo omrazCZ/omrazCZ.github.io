@@ -1,10 +1,8 @@
 ---
 title: "Local Search for AI Planning"
 collection: publications
-permalink: /publication/2010-10-01-local-search-2
-excerpt: 'Recent breakthroughs in the field of AI planning such as the Identidem and Marvin planners support the creation of more advanced and realistic representations of real-world domains. It is well-known that an adequate local search strategy can help to solve increasingly complicated Planning Domain Definition Language problems. Contemporary planners, however, strive to find a balance between the traditional greedy search and a certain degree of randomness. The aim of this work is thus to introduce a new planner that combines applicable local search techniques in a novel way not explored before to enhance the performance of the existing JavaFF planner.
-
-The new proposed planner is based on the principle of local beam search combining different successor selection methods, macros and restarts. Experimental results show that the new planner can solve considerably more problems and often within a shorter time compared to its predecessor JavaFF. Our planner could find its practical utilization in domains such as urban traffic modelling or autonomous robot control.'
+permalink: /publications/2020-11-25-local-search-1
+excerpt: 'Recent breakthroughs in the field of AI planning such as the Identidem and Marvin planners support the creation of more advanced and realistic representations of real-world domains. It is well-known that an adequate local search strategy can help to solve increasingly complicated Planning Domain Definition Language problems. Contemporary planners, however, strive to find a balance between the traditional greedy search and a certain degree of randomness. The aim of this work is thus to introduce a new planner that combines applicable local search techniques in a novel way not explored before to enhance the performance of the existing JavaFF planner. The new proposed planner is based on the principle of local beam search combining different successor selection methods, macros and restarts. Experimental results show that the new planner can solve considerably more problems and often within a shorter time compared to its predecessor JavaFF. Our planner could find its practical utilization in domains such as urban traffic modelling or autonomous robot control.'
 date: 2020-11-25
 venue: 'IPS-RCRA@ AI* IA'
 #slidesurl: 'http://academicpages.github.io/files/slides2.pdf'

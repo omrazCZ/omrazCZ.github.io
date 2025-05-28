@@ -1,7 +1,7 @@
 ---
 title: "Explore, Compare, and Predict Investment Opportunities through What-If Analysis: US Housing Market Investigation"
 collection: publications
-permalink: /publication/2023-09-22-paper-what-if-analysis
+permalink: /publications/2023-09-22-paper-what-if-analysis-2
 excerpt: 'A key challenge in data analysis tools for domain-specific applications with high-dimensional time series data is to provide an intuitive way for users to explore their datasets, analyze trends and understand the models developed for these applications through human-computer interaction. To address this challenge, we propose a three-stage workflow that allows domain experts to explore their data, compare the different entities’ features, and predict the variable’s long-term trend using what-if analyses. Based on this workflow, we created a data visualization workspace for real estate investment using data from the US housing market at state and city level. The underlying machine learning model ARIMAX uses house price data together with socio-economic data from 2000 to 2021 to learn the dependencies of the house prices on the socio-economic factors and make informative and robust predictions for future years.'
 date: 2023-09-22
 venue: 'Proceedings of the 16th International Symposium on Visual Information Communication and Interaction'
