@@ -1,5 +1,5 @@
 ---
-title: "MSc Thesis: "
+title: "MSc Thesis: Transactional guarantees for Agentic AI Systems"
 collection: supervision
 type: "MSc Thesis"
 permalink: /supervision/2026-agentic-txn-guarantees
